@@ -1,0 +1,55 @@
+.main
+  &-slider 
+    position: relative
+    z-index: 10
+    &__group
+      position: absolute
+      top: 114px
+      right: 113px
+      z-index: 12
+    &__img
+      &-1, &-2, &-3, &-4, &-5, &-6, &-7
+        background-image: url(../img/main/slider/bitmap-1.png) 
+    &__description
+      position: relative
+      height: 385px 
+      padding-top: 305px
+      padding-left: 13%
+      font-family: PTSerif, serif
+      font-size: 48px
+      color: #ffffff
+      hr 
+        width: 45px
+        border: 1px solid $red-line
+        position: absolute
+        left: 150px
+        top: 530px
+        z-index: 13
+        transform: rotate(90deg)
+      & span 
+        text-decoration: none
+        font-family: PTSerif, serif
+        font-size: 24px
+        font-style: italic
+        color: $red-line
+        cursor: pointer
+.counter
+  position: absolute
+  top: 320px 
+  left: 156px   
+  color: #ffffff
+  font-family: PTSans, serif
+  font-size: 20px
+  z-index: 11
+// .slider-arrow
+//   position: absolute
+//   top: 0
+//   height: 30%
+//   width: 25%
+//   z-index: 99
+// .slider-arrow_left
+//   left: 0
+// 	background: url(../img/main/slider/arrow-p.png) center no-repeat
+// .slider-arrow_right	
+//   right: 0
+// 	background: url(../img/main/slider/arrow-n.png) center no-repeat  
